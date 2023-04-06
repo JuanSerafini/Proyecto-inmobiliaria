@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container-items{
+	background-color: #ffffff;
+	height: 200px;
+	display: flex;
+}
+
+.item-flex{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.item-flex-2{
+ 	margin: auto;
+}
+.titulo{
+	font-family: 'Cinzel', serif;
+	font-size: 40px;
+	color: #0c4d72;
+}
+
+.items-redes{
+	position: absolute;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 30%;
+	display: flex;
+	left: 70%;
+}
+
+.items-redes a{
+	outline: 2px solid #710982;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	margin: auto;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.items-redes a:hover{
+	transition: 0.2s;
+	font-size: 40px;
+	outline: 2px solid #710982;
+}
+
+.items-redes a:link {
+	color: #710982;
+}
+
+.items-redes a:visited{
+	color: #710982;
+}
+
+.grid-layout{
+	display: grid;
+	border: 1px solid darkcyan;
+	margin: 20px 40px;
+}
+
+.cajas{
+	margin: 1px;
+	padding: 5px;
+	border: 1px solid darkcyan;
+}
+
+.cajas h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-align: center;
+	color: #406899;
+}
+
+.cajas h3{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+.cajas b{
+	display: block;
+	font-family: Courier New,sans serif;
+	font-size: 12px;
+	font-weight: bold;
+
+	color: #000000;
+}
+
+.precios{
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+.c1, .c2{
+	grid-column: 1/10;
+}
+
+.c3, .c5, .c7{
+	grid-column: 1/8;
+}
+
+.c4, .c6, .c8{
+	grid-column: 8/10;
+}
+
+.main-first{
+	margin: 20px;
+	display: flex;
+}
+
+.item-ubi{
+	margin-left: 0px;
+	width: 100%;
+}
+.ubicacion{
+	margin-left: 20px;
+}
+
+
+
+titutlos 
+Georgia, "Times New Roman", Times, serif;
+
+font-size: 16px;
+font-size: 14px;
+font-size: 12px;
+
+color 
+#406899
+
+@media max widht1050px
